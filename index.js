@@ -57,7 +57,7 @@
 
     })
 
-}(require('jquery'));/* ==========================================================
+}(require('component-jquery'));/* ==========================================================
  * bootstrap-alert.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#alerts
  * ==========================================================
@@ -144,7 +144,7 @@
 
     $(document).on('click.alert.data-api', dismiss, Alert.prototype.close)
 
-}(require('jquery'));/* ============================================================
+}(require('component-jquery'));/* ============================================================
  * bootstrap-button.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#buttons
  * ============================================================
@@ -237,7 +237,7 @@
         $btn.button('toggle')
     })
 
-}(require('jquery'));/* ==========================================================
+}(require('component-jquery'));/* ==========================================================
  * bootstrap-carousel.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#carousel
  * ==========================================================
@@ -412,7 +412,7 @@
         e.preventDefault()
     })
 
-}(require('jquery'));/* =============================================================
+}(require('component-jquery'));/* =============================================================
  * bootstrap-collapse.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#collapse
  * =============================================================
@@ -567,7 +567,7 @@
         $(target).collapse(option)
     })
 
-}(require('jquery'));/* ============================================================
+}(require('component-jquery'));/* ============================================================
  * bootstrap-dropdown.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#dropdowns
  * ============================================================
@@ -714,7 +714,7 @@
         .on('click.dropdown.data-api touchstart.dropdown.data-api'  , toggle, Dropdown.prototype.toggle)
         .on('keydown.dropdown.data-api touchstart.dropdown.data-api', toggle + ', [role=menu]' , Dropdown.prototype.keydown)
 
-}(require('jquery'));/* =========================================================
+}(require('component-jquery'));/* =========================================================
  * bootstrap-modal.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#modals
  * =========================================================
@@ -947,7 +947,7 @@
             })
     })
 
-}(require('jquery'));
+}(require('component-jquery'));
 /* ===========================================================
  * bootstrap-tooltip.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#tooltips
@@ -1223,7 +1223,7 @@
         , html: false
     }
 
-}(require('jquery'));/* ===========================================================
+}(require('component-jquery'));/* ===========================================================
  * bootstrap-popover.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#popovers
  * ===========================================================
@@ -1325,7 +1325,7 @@
         , template: '<div class="popover"><div class="arrow"></div><div class="popover-inner"><h3 class="popover-title"></h3><div class="popover-content"><p></p></div></div></div>'
     })
 
-}(require('jquery'));/* =============================================================
+}(require('component-jquery'));/* =============================================================
  * bootstrap-scrollspy.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#scrollspy
  * =============================================================
@@ -1475,7 +1475,7 @@
         })
     })
 
-}(require('jquery'));/* ========================================================
+}(require('component-jquery'));/* ========================================================
  * bootstrap-tab.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#tabs
  * ========================================================
@@ -1607,7 +1607,7 @@
         $(this).tab('show')
     })
 
-}(require('jquery'));/* =============================================================
+}(require('component-jquery'));/* =============================================================
  * bootstrap-typeahead.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#typeahead
  * =============================================================
@@ -1916,7 +1916,7 @@
         $this.typeahead($this.data())
     })
 
-}(require('jquery'));
+}(require('component-jquery'));
 /* ==========================================================
  * bootstrap-affix.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#affix
@@ -2022,6 +2022,6 @@
     })
 
 
-}(require('jquery'));
+}(require('component-jquery'));
 
-module.exports = require('jquery');
+module.exports = require('component-jquery');
